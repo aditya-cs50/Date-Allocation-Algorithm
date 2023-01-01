@@ -1,4 +1,3 @@
-# DO NOT EDIT HERE ONWARDS
 def function(dn_wknd, dn_fri, dn_wkday, no_wknd, no_fri, no_days_in_month, dont_give_wknd_or_fri):
     
     for name in dont_give_wknd_or_fri:
@@ -69,18 +68,3 @@ def function(dn_wknd, dn_fri, dn_wkday, no_wknd, no_fri, no_days_in_month, dont_
     return dictionary
 
 
-"""
-# input weekdays, weekends, fridays in subsequent month
-no_wknd = [7,14,21,28,1,8,5,22,29,2,23]
-no_fri = [6,13,20,27]
-no_days_in_month = 30
-
-# input people for each case - done weekday, weekend, friday in the previous month
-dn_wknd = ["CPL LEONARD (B)","LCP JUN LONG (ME)","PTE HAIKAL (HQ)","PTE RUSYAIDI (HQ)","PTE SRI (C)","CPL ZIYAN (ME)","LCP JOSEN (ME)","LCP AVIER (HQ)","PTE SHAFIQ (HQ)","PTE EDMUND (C)","PTE MIN QUAN (B)"]
-dn_fri = ["PTE YANNIAN (HQ)","CPL ZIYAN (ME)","LCP ELIAS (B)","PTE SRI (C)"]
-dn_wkday = ["LCP ERNEST (HQ)","PTE JINGZE (A)","CPL ADRIAN (A)","CPL XINBO (A)","LCP JOSEN (ME)", "PTE CHRISTIAN (HQ)", "PTE WINSON (B)","LCP DARYL (ME)","PTE EUGENE (HQ)","LCP CHING KAI (HQ)"]
-
-print(len(do_wknd))
-print(len(do_fri))
-print(len(do_wkday))
-"""
