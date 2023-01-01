@@ -3,16 +3,16 @@
 # ensure the lists are mutually exclusive (each person belongs to only 1 list)
 # ensure the lists, when combined, have the names of everyone
 # put ASICs under dn_wknd, not dn_wkday
-dn_wknd = ["PTE EUGENE (HQ)","LCP CHING KAI (HQ)","LCP ERNEST (HQ)","PTE JINGZE (A)","CPL ADRIAN (A)","CPL XINBO (A)","PTE WINSON (B)","LCP DARYL (HQ)","PTE CHRISTIAN (HQ)"]
-dn_fri = ["PTE YANNIAN (HQ)","LCP ELIAS (B)","PTE SRI (C)"]
-dn_wkday = ["PTE MIN QUAN (B)","LCP JUN LONG (ME)","LCP AVIER (HQ)","CPL LEONARD (B)","PTE HAIKAL (HQ)","PTE RUSYAIDI (HQ)","PTE SHAFIQ (HQ)","PTE EDMUND (C)"]
+dn_wknd = []
+dn_fri = []
+dn_wkday = []
 
-# put ASICs in the following list also. 
+
 # Only if it is possible, it will remove them from weekends and fridays for MAIN DC only (not RESERVE DC)
 dont_give_wknd_or_fri = ["LCP CHING KAI (HQ)", "PTE EUGENE (HQ)"]
 
 #for the month you are planning for, input weekend dates, friday dates, number of days in month and name of blockout date csv file
-
+# For month of Feb 2023
 no_wknd = [4,11,18,25,5,12,19,26]
 no_fri = [3,10,17,24]
 no_days_in_month = 28
@@ -22,10 +22,7 @@ no_wknd = [1,2,3,4,5]
 no_fri = [6,7]
 no_days_in_month = 8
 """
-csv_name = "DC Blockout Dates (Jan 23).csv"
-
-
-# NO NEED TO EDIT THE REST
+csv_name = "Blockout Dates.csv"
 
 import csv
 from helper import function
